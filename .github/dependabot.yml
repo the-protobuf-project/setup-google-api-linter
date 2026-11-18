@@ -9,8 +9,6 @@ version: 2
 updates:
   # JavaScript/TypeScript dependencies (package.json + bun.lock).
   - package-ecosystem: "npm"
-    assignees:
-      - "ParthuReddy31"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -30,8 +28,6 @@ updates:
 
   # The GitHub Actions used by this repo's own workflows (CI, self-test).
   - package-ecosystem: "github-actions"
-    assignees:
-      - "ParthuReddy31"
     directory: "/"
     schedule:
       interval: "weekly"
